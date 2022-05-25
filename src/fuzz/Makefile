@@ -7,7 +7,7 @@ FUZZERS := config uapi stringlist cmd set setconf
 all: $(FUZZERS)
 
 CFLAGS ?= -O3 -march=native -g
-CFLAGS += -fsanitize=fuzzer -fsanitize=address -std=gnu11 -idirafter ../uapi -D_GNU_SOURCE
+CFLAGS += -fsanitize=fuzzer -fsanitize=address -std=gnu11 -idirafter ../uapi -D_GNU_SOURCE -I/repo/src/uapi/linux
 CC := clang
 
 config: config.c ../config.c ../encoding.c
