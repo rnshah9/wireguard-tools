@@ -1,5 +1,5 @@
 project: rnshah9/wireguard-tools
-target: wireguard-tools
+target: cmd
 
 cmds:
   - cmd: /repo/src/fuzz/cmd
