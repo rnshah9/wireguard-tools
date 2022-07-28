@@ -2,4 +2,4 @@ project: wireguard-tools
 target: cmd
 
 cmds:
-  - cmd: /repo/src/fuzz/cmd
+  - cmd: /cmd
