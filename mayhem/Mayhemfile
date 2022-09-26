@@ -1,0 +1,5 @@
+project: wireguard-tools
+target: cmd
+
+cmds:
+  - cmd: /cmd
